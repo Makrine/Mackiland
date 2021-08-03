@@ -115,6 +115,9 @@ img.floatRight {
   <a href="culture.html">Culture</a>
   <a href="immigration.html">Immigration</a>
   <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 
 <img src="https://c.tenor.com/G9va_GUNufAAAAAj/banana-dancing-happy-banana.gif" alt="funny animation GIF" width="10%" style="float:left" title="how long do we have to keep dancing?"><img src="https://c.tenor.com/G9va_GUNufAAAAAj/banana-dancing-happy-banana.gif" alt="funny animation GIF" width="10%" style="float:right" title="as long as this tab is open!"></br></br>
@@ -137,6 +140,17 @@ img.floatRight {
 <div class="footer">
   <p>Copyright 	&#xA9; 2021 Government of Mackiland. No human rights preserved.</p>
 </div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
 </body>
 
 <html>
